@@ -1,0 +1,49 @@
+# Environment variables - NEVER commit API keys
+.env
+.env.local
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data files (too large for git, and may contain personal data)
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+
+# Trained models (large binary files)
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# SHAP output plots
+outputs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
